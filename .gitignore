@@ -1,0 +1,17 @@
+*.zip
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.bai
+hisat2_index/
+*.tmp
+*.sra
+*.fa
+*.fa.gz
+*.gtf.gz
+*.gtf
+backup_alignment/
+tools/
+.Rhistory
+.RData
