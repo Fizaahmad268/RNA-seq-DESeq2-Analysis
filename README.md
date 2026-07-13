@@ -82,30 +82,31 @@ The analysis generated:
 ![Heatmap](deseq2/Heatmap.png)
 
 ## Repository Structure
+
+```
 RNA-seq-DESeq2-Analysis/
 
 ├── counts/
-│ └── gene_counts.txt
+│   └── gene_counts.txt
 │
 ├── deseq2/
-│ ├── DESeq2_results.csv
-│ ├── counts_matrix.csv
-│ ├── metadata.csv
-│ ├── deseq2_analysis.R
-│ ├── volcano_plot.R
-│ ├── heatmap_plot.R
-│ ├── volcanoPlot.png
-│ └── Heatmap.png
+│   ├── DESeq2_results.csv
+│   ├── counts_matrix.csv
+│   ├── metadata.csv
+│   ├── deseq2_analysis.R
+│   ├── volcano_plot.R
+│   ├── heatmap_plot.R
+│   ├── volcanoPlot.png
+│   └── Heatmap.png
 │
 ├── qc_raw/
-│ └── FastQC reports
+│   └── FastQC reports
 │
 ├── qc_trimmed/
-│ └── FastQC reports after trimming
+│   └── FastQC reports after trimming
 │
 └── .gitignore
-
-
+```
 ## Tools & Technologies
 
 - FastQC
